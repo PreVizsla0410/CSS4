@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#wrapper {
+margin: 20px;
+float: left;
+height: 60px;
+}
+img {
+    position:absolute;
+    left: 50%;
+    display: block;
+    max-width: none;
+    height: 1.5rem;
+}
+header {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+body {
+    background-color: #eee;
+}
+nav {
+    display: inline-block;
+  float: none;
+  vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+ul {
+      text-align: center;
+}
+ul li {
+  display: inline-block;
+    line-height: 60px;
+    padding: 0;
+}
+ul li a {
+text-decoration: none; /*so kann man etwas anklickbares erstellen */
+font-size: 14px;
+font-family: arial;
+color: #1e1e1e;
+padding: 0 20px;
+}
+
+ul li a:hover {
+color:white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 100px;
+    font-size: 30px;
+    text-align: center;
+  }
+  footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(192, 188, 188);
+    color: rgb(10, 10, 10);
+    text-align: center;
+  }
+  .pfooter {
+      padding: 0;
+      margin: 0;
+  }
