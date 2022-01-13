@@ -1,0 +1,40 @@
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 20px 20px #a79c9c;
+}
+p, li  {
+    color: #707070;
+}
+li {
+    padding: 0px 5px;
+}
+header {
+    text-align: center;
+}
+h1 {
+    color: #DB0038;
+}
+h2 {
+    color: #3998A3;
+}
+h3 {
+    color: #474747;
+}
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.rating {
+    color: #F4B400;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
